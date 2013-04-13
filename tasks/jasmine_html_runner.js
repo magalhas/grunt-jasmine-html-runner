@@ -1,11 +1,11 @@
 "use strict";
 var _ = require("lodash"),
     JasmineHtmlRunner = require("jasmine-html-runner");
-module.exports = function(grunt) {
+module.exports = function (grunt) {
     /**
      * @todo Validate if configFile is set
      */
-    grunt.registerMultiTask("jasmine_html_runner", "Runs jasmine html runner using phantomjs.", function () {
+    grunt.registerTask("jasmine_html_runner", "Runs jasmine html runner using phantomjs.", function () {
         var done = this.async(),
             options = this.options({
                 configFile: undefined,
