@@ -1,0 +1,44 @@
+{
+  "name": "grunt-jasmine-html-runner",
+  "description": "Grunt task to run jasmine html runner using phantomjs.",
+  "version": "0.1.0",
+  "homepage": "",
+  "author": {
+    "name": "José Magalhães",
+    "email": "magalhas@gmail.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/magalhas/grunt-jasmine-html-runner.git"
+  },
+  "bugs": {
+    "url": ""
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "/blob/master/LICENSE-MIT"
+    }
+  ],
+  "dependencies": {
+    "lodash": "*",
+    "jasmine-html-runner": "*"
+  },
+  "engines": {
+    "node": ">= 0.8.0"
+  },
+  "peerDependencies": {
+    "grunt": "~0.4.1"
+  },
+  "keywords": [
+    "phantom",
+    "bdd",
+    "tdd",
+    "testing",
+    "jasmine",
+    "headless",
+    "grunt",
+    "gruntplugin",
+    "task"
+  ]
+}
