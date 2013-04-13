@@ -23,8 +23,10 @@ In your project's Gruntfile, add a section named `jasmine_html_runner` to the da
 
 ```js
 grunt.initConfig({
-  jasmine_html_runner: {
-    configFile: "path_to_your_config_file"
-  },
-})
+    jasmine_html_runner: {
+        options: {
+            configFile: "path_to_your_config_file"
+        }
+    }
+});
 ```
